@@ -63,6 +63,10 @@ export default {
         },
         glow: "hsl(var(--glow))",
         gold: "hsl(var(--gold))",
+        parchment: "hsl(var(--parchment))",
+        obsidian: "hsl(var(--obsidian))",
+        sage: "hsl(var(--sage))",
+        ash: "hsl(var(--ash))",
       },
       borderRadius: {
         lg: "var(--radius)",
