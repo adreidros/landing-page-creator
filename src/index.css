@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
 
 /* 
   Design System: "Versunkene Bibliothek" (Sunken Library)
@@ -56,8 +56,8 @@
     --sage: 92 8% 48%;
     --ash: 45 2% 41%;
 
-    --font-display: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-display: 'Cinzel', serif;
+    --font-body: 'Cormorant', serif;
 
     --sidebar-background: 30 6% 12%;
     --sidebar-foreground: 38 38% 85%;
