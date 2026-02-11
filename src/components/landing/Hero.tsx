@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import heroImage from "@/assets/hero-library.jpg";
+import dschoolLogo from "@/assets/logo-dschool.png";
 
 const Hero = () => {
   return (
@@ -92,16 +93,10 @@ const Hero = () => {
               Supported and Endorsed by
             </p>
             <div className="flex items-center justify-center gap-8 flex-wrap">
-              {["HPI d-school", "Startup Service Potsdam Transfer"].map(
-                (name) => (
-                  <span
-                    key={name}
-                    className="text-lg font-display font-semibold text-foreground/70"
-                  >
-                    {name}
-                  </span>
-                )
-              )}
+              <img src={dschoolLogo} alt="HPI d-school" className="h-10 brightness-0 invert opacity-70" />
+              <span className="text-lg font-display font-semibold text-foreground/70">
+                Startup Service Potsdam Transfer
+              </span>
             </div>
           </motion.div>
         </motion.div>
