@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-import heroImage from "@/assets/hero-avatar.jpg";
+import heroImage from "@/assets/hero-library.jpg";
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="AI Avatar in museum setting"
+          alt="Mystical sunken library with ancient manuscripts"
           className="w-full h-full object-cover opacity-60"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-background/40" />
@@ -89,14 +89,14 @@ const Hero = () => {
             className="mt-16 pt-8 border-t border-border/30"
           >
             <p className="text-sm text-muted-foreground mb-4">
-              Trusted by leading institutions worldwide
+              Supported and Endorsed by
             </p>
-            <div className="flex items-center justify-center gap-8 flex-wrap opacity-50">
-              {["Smithsonian", "British Museum", "Louvre", "Met Museum"].map(
+            <div className="flex items-center justify-center gap-8 flex-wrap">
+              {["HPI d-school", "Startup Service Potsdam Transfer"].map(
                 (name) => (
                   <span
                     key={name}
-                    className="text-lg font-display font-semibold text-foreground/60"
+                    className="text-lg font-display font-semibold text-foreground/70"
                   >
                     {name}
                   </span>

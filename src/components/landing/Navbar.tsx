@@ -3,17 +3,17 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 const navLinks = [{
-  name: "Features",
-  href: "#features"
+  name: "The Product",
+  href: "#product"
 }, {
-  name: "How It Works",
-  href: "#how-it-works"
+  name: "How It Became",
+  href: "#story"
 }, {
-  name: "Use Cases",
-  href: "#use-cases"
+  name: "Our Mission",
+  href: "#mission"
 }, {
-  name: "About",
-  href: "#about"
+  name: "The Team",
+  href: "#team"
 }];
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
