@@ -11,7 +11,6 @@ const teamMembers = [
   { name: "Klara Klostermann", role: "B.Sc. Politics and Economics", image: teamKlara },
   { name: "Sarah-Lea Langner", role: "", image: teamSarah },
   { name: "Emre Yüzüncüoglu", role: "M.A. Ancient Cultures of the Eastern Mediterranean", image: teamEmre },
-  { name: "Qian Li", role: "", image: null },
 ];
 
 const sections = [
