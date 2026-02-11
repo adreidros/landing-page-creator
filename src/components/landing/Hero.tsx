@@ -93,7 +93,7 @@ const Hero = () => {
               Supported and Endorsed by
             </p>
             <div className="flex items-center justify-center gap-8 flex-wrap">
-              <img src={dschoolLogo} alt="HPI d-school" className="h-10 sepia brightness-75 hue-rotate-15 opacity-70" />
+              <img src={dschoolLogo} alt="HPI d-school" className="h-10 opacity-60 grayscale brightness-150 contrast-125" style={{ filter: "grayscale(100%) brightness(1.8) contrast(1.1) sepia(100%) hue-rotate(5deg) saturate(3)" }} />
               <span className="text-lg font-display font-semibold text-foreground/70">
                 Startup Service Potsdam Transfer
               </span>
