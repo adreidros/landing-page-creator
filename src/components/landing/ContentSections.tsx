@@ -41,7 +41,24 @@ const ContentSections = () => {
                 {section.label}
               </span>
 
-              {section.id === "story" ? (
+              {section.id === "product" ? (
+                <div className="mt-8">
+                  <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-8">
+                    We Catch Echoes of the Eternal
+                  </h2>
+                  <div className="space-y-6 text-lg text-muted-foreground font-body leading-relaxed">
+                    <p>
+                      Imagine – you step into the hall and are received by Alexander the Great. The conquerer himself grants you an audition – and you can ask everything you have ever wanted to know about him, his campaigns, his personal life.
+                    </p>
+                    <p>
+                      Or maybe you want to have a conversation with Gaius Caius, son of a freed slave, who made a living as baker in Ancient Rome?
+                    </p>
+                    <p>
+                      This is what we are providing. Interactive AI-powered avatars of historical personalities, both famous and unknown, equipped with the capacity to engage in conversation with museum guests. With custom-trained databases as foundation for their personality and knowledge, each avatar will provide historically accurate information in a way never seen before.
+                    </p>
+                  </div>
+                </div>
+              ) : section.id === "story" ? (
                 <div className="mt-8">
                   <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-8">
                     Contextless exhibition items in museums
