@@ -133,6 +133,17 @@ const ContentSections = () => {
                     ))}
                   </div>
                 </div>
+              ) : section.id === "mission" ? (
+                <div className="mt-8">
+                  <div className="space-y-6 text-lg text-muted-foreground font-body leading-relaxed">
+                    <p>
+                      Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Egyptian exhibition at the Neues Museum Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
+                    </p>
+                    <p>
+                      Thanks to the support of Potsdam Transfer, we are now standing on our own two feet. Our goal: to fill more museums with the sound of intercultural and intergenerational dialogue!
+                    </p>
+                  </div>
+                </div>
               ) : (
                 <div className="mt-8 min-h-[200px] rounded-2xl border-2 border-dashed border-border/50 flex items-center justify-center">
                   <p className="text-muted-foreground/50 text-lg">
