@@ -61,18 +61,15 @@ const ContentSections = () => {
                 </div>
               ) : section.id === "product" ? (
                 <div className="mt-8">
-                  <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-8">
-                    We Catch Echoes of the Eternal
-                  </h2>
                   <div className="space-y-6 text-lg text-muted-foreground font-body leading-relaxed">
                     <p>
-                      Imagine – you step into the hall and are received by Alexander the Great. The conquerer himself grants you an audition – and you can ask everything you have ever wanted to know about him, his campaigns, his personal life.
+                      Great personalities have a lot to say – far more than can fit on an information board. Our AI-powered avatars follow our ethical guidelines and have access to historically curated databases chosen by you – and only those databases.
                     </p>
                     <p>
-                      Or maybe you want to have a conversation with Gaius Caius, son of a freed slave, who made a living as baker in Ancient Rome?
+                      They are always open to conversation and convey the information that visitors are really interested in. This means that both young history enthusiasts and experienced season ticket holders get their money's worth.
                     </p>
                     <p>
-                      This is what we are providing. Interactive AI-powered avatars of historical personalities, both famous and unknown, equipped with the capacity to engage in conversation with museum guests. With custom-trained databases as foundation for their personality and knowledge, each avatar will provide historically accurate information in a way never seen before.
+                      The knowledge of an entire permanent exhibition gathered on the surface of a single screen.
                     </p>
                   </div>
                 </div>
