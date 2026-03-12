@@ -91,7 +91,7 @@ const ContentSections = () => {
             className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30"
           >
             <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">The Product</span>
-            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed">
+            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
               <p>
                 Great personalities have a lot to say – far more than can fit on an information board. Our AI-powered avatars follow our ethical guidelines and have access to historically curated databases chosen by you – and only those databases.
               </p>
@@ -113,7 +113,7 @@ const ContentSections = () => {
             className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30"
           >
             <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">Our Motivation</span>
-            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed">
+            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
               <p>
                 Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Egyptian exhibition at the Neues Museum Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
               </p>
