@@ -27,7 +27,7 @@ const ContentSections = () => {
             transition={{ duration: 0.7 }}
             className="flex flex-col justify-center"
           >
-            <h2 className="font-display text-xl md:text-2xl lg:text-3xl font-light text-foreground uppercase tracking-[0.1em] mb-8 whitespace-nowrap">
+            <h2 className="font-display text-2xl md:text-3xl font-light text-foreground uppercase tracking-[0.1em] mb-8">
               We Catch Echoes of the Eternal
             </h2>
             <div className="space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed">
