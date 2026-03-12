@@ -38,9 +38,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="font-display font-light leading-tight mb-6 uppercase tracking-wide text-foreground/80"
           >
-            <span className="text-2xl md:text-3xl lg:text-4xl block mb-2">Meet the</span>
-            <span className="text-4xl md:text-5xl lg:text-6xl block">Messengers of History</span>
-            <span className="text-4xl md:text-5xl lg:text-6xl gradient-text block">Face to Face</span>
+            <span className="text-4xl md:text-5xl lg:text-6xl block">History Stands Before You.</span>
+            <span className="text-4xl md:text-5xl lg:text-6xl gradient-text block">Hear the Voices of the Past</span>
           </motion.h1>
 
           {/* Subheadline */}
