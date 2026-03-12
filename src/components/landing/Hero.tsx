@@ -12,8 +12,8 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Mystical sunken library with ancient manuscripts"
-          className="w-full h-full object-cover opacity-40"
-        />
+          className="w-full h-full object-cover opacity-40" />
+        
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/85 to-background/50" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-background/60" />
       </div>
@@ -27,16 +27,17 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="max-w-5xl mx-auto"
-        >
+          className="max-w-5xl mx-auto">
+          
           {/* Headline */}
           <motion.h1
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="font-display font-light leading-[1.3] mt-16 mb-8 uppercase tracking-[0.15em] text-foreground"
-          >
-            <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">
+            className="font-display font-light leading-[1.3] mt-16 mb-8 uppercase tracking-[0.15em] text-foreground">
+            
+            <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">HISTORY STANDS BEFORE YOU
+
               <span className="text-primary">History</span> Stands Before You.
             </span>
             <span className="text-4xl md:text-5xl lg:text-6xl block">
@@ -45,20 +46,19 @@ const Hero = () => {
           </motion.h1>
 
           {/* Subtle divider */}
-          <motion.div
-            initial={{ scaleX: 0 }}
-            animate={{ scaleX: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="w-24 h-px bg-primary/40 mx-auto mb-8"
-          />
+          <motion.div initial={{ scaleX: 0 }}
+          animate={{ scaleX: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="w-24 h-px bg-primary/40 mx-auto mb-8" />
+          
 
           {/* Subheadline */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 font-body leading-relaxed"
-          >
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 font-body leading-relaxed">
+            
             Interactive AI avatars of historical personalities that engage in conversation with your museum guests.
           </motion.p>
 
@@ -67,8 +67,8 @@ const Hero = () => {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
-          >
+            className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            
             <Button variant="hero" size="xl" className="group">
               Request a Demo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -84,8 +84,8 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="mt-20 pt-8 border-t border-border/20"
-          >
+            className="mt-20 pt-8 border-t border-border/20">
+            
             <p className="text-xs text-muted-foreground/60 uppercase tracking-[0.2em] mb-5">
               Supported by
             </p>
@@ -94,8 +94,8 @@ const Hero = () => {
                 src={dschoolLogo}
                 alt="HPI d-school"
                 className="h-8 opacity-50"
-                style={{ filter: "grayscale(100%) brightness(1.8) contrast(1.1) sepia(100%) hue-rotate(5deg) saturate(3)" }}
-              />
+                style={{ filter: "grayscale(100%) brightness(1.8) contrast(1.1) sepia(100%) hue-rotate(5deg) saturate(3)" }} />
+              
               <span className="text-sm font-display font-light text-foreground/50 tracking-wider">
                 Potsdam Transfer
               </span>
@@ -103,8 +103,8 @@ const Hero = () => {
           </motion.div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
