@@ -36,11 +36,11 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-display text-5xl md:text-6xl lg:text-7xl font-light leading-tight mb-6 text-balance uppercase tracking-wide"
+            className="font-display font-light leading-tight mb-6 uppercase tracking-wide text-foreground/80"
           >
-            Meet the<br />
-            Messengers of History<br />
-            <span className="gradient-text">Face to Face</span>
+            <span className="text-2xl md:text-3xl lg:text-4xl block mb-2">Meet the</span>
+            <span className="text-4xl md:text-5xl lg:text-6xl block">Messengers of History</span>
+            <span className="text-4xl md:text-5xl lg:text-6xl gradient-text block">Face to Face</span>
           </motion.h1>
 
           {/* Subheadline */}
