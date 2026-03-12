@@ -34,10 +34,14 @@ const Hero = () => {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="font-display font-light leading-[1.15] mb-8 uppercase tracking-[0.15em] text-foreground"
+            className="font-display font-light leading-[1.15] mt-8 mb-8 uppercase tracking-[0.15em] text-foreground"
           >
-            <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">History Stands Before You.</span>
-            <span className="text-4xl md:text-5xl lg:text-6xl gradient-text block">Hear the Voices of the Past</span>
+            <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">
+              <span className="text-primary">History</span> Stands Before You.
+            </span>
+            <span className="text-4xl md:text-5xl lg:text-6xl block">
+              Hear the <span className="text-primary">Voices of the Past</span>
+            </span>
           </motion.h1>
 
           {/* Subtle divider */}
