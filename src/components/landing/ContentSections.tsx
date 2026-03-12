@@ -16,18 +16,6 @@ const teamMembers = [
 const ContentSections = () => {
   return (
     <div className="container mx-auto px-6">
-      {/* Headline */}
-      <section className="py-20">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground text-center max-w-5xl mx-auto"
-        >
-          Meet the Messengers of History Face to Face
-        </motion.h1>
-      </section>
 
       {/* Vision text (left) + Demo video (right) */}
       <section className="pb-12">
