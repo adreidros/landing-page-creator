@@ -30,7 +30,7 @@ const ContentSections = () => {
             <h2 className="font-display text-lg md:text-xl lg:text-2xl font-light text-foreground uppercase tracking-[0.1em] mb-8 whitespace-nowrap">
               We Catch Echoes of the Eternal
             </h2>
-            <div className="space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed">
+            <div className="space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
               <p>
                 Transform an exhibition into the Macedonian court and have visitors be received by Alexander the Great himself. The conquerer grants you an audience and you can ask him everything you want. About his campaigns, his personal life – or maybe you are curious about his favorite breakfast beverage?
               </p>
