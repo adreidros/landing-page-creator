@@ -34,7 +34,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="font-display font-light leading-[1.15] mt-8 mb-8 uppercase tracking-[0.15em] text-foreground"
+            className="font-display font-light leading-[1.3] mt-16 mb-8 uppercase tracking-[0.15em] text-foreground"
           >
             <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">
               <span className="text-primary">History</span> Stands Before You.
