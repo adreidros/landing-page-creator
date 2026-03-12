@@ -16,21 +16,21 @@ const teamMembers = [
 const ContentSections = () => {
   return (
     <div className="container mx-auto px-6">
-
       {/* Vision text (left) + Demo video (right) */}
-      <section className="pb-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <section className="py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-stretch">
           {/* Left: Vision text */}
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.7 }}
+            className="flex flex-col justify-center"
           >
-            <h2 className="font-display text-3xl md:text-4xl font-light text-foreground mb-6">
+            <h2 className="font-display text-2xl md:text-3xl font-light text-foreground uppercase tracking-[0.1em] mb-8">
               We Catch Echoes of the Eternal
             </h2>
-            <div className="space-y-4 text-lg text-muted-foreground font-body leading-relaxed">
+            <div className="space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed">
               <p>
                 Transform an exhibition into the Macedonian court and have visitors be received by Alexander the Great himself. The conquerer grants you an audience and you can ask him everything you want. About his campaigns, his personal life – or maybe you are curious about his favorite breakfast beverage?
               </p>
@@ -45,50 +45,53 @@ const ContentSections = () => {
 
           {/* Right: Demo video */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.7, delay: 0.1 }}
             id="demo"
-            className="w-full rounded-2xl bg-secondary border border-border flex items-center justify-center"
+            className="w-full rounded-xl bg-secondary/50 border border-border/50 flex items-center justify-center min-h-[400px]"
           >
-            <div className="text-center text-muted-foreground py-20">
-              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+            <div className="text-center text-muted-foreground">
+              <div className="w-14 h-14 rounded-full bg-primary/15 flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-primary/70" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z" />
                 </svg>
               </div>
-              <p className="text-sm">Demo Video</p>
+              <p className="text-xs text-muted-foreground/50 uppercase tracking-wider">Demo Video</p>
             </div>
           </motion.div>
         </div>
 
         {/* Subheader - full width */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mt-12 p-6 rounded-2xl bg-primary/10 border border-primary/20"
+          className="mt-16 py-8 px-8 rounded-xl border border-primary/15 bg-primary/5"
         >
-          <p className="font-display text-xl md:text-2xl font-semibold text-foreground leading-snug text-center">
+          <p className="font-display text-lg md:text-xl font-light text-foreground/80 leading-relaxed text-center tracking-wide">
             Transform your exhibition into a stage for dialogue that transcends millenia
           </p>
         </motion.div>
       </section>
 
+      {/* Divider */}
+      <div className="w-16 h-px bg-border/50 mx-auto" />
+
       {/* Product (left) + Motivation (right) */}
-      <section id="product" className="py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <section id="product" className="py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="p-8 rounded-2xl bg-secondary/30 border border-border/50"
+            transition={{ duration: 0.7 }}
+            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30"
           >
-            <span className="text-primary font-medium text-sm uppercase tracking-wider">The Product</span>
-            <div className="mt-4 space-y-4 text-lg text-muted-foreground font-body leading-relaxed">
+            <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">The Product</span>
+            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed">
               <p>
                 Great personalities have a lot to say – far more than can fit on an information board. Our AI-powered avatars follow our ethical guidelines and have access to historically curated databases chosen by you – and only those databases.
               </p>
@@ -105,12 +108,12 @@ const ContentSections = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 0.1 }}
             id="motivation"
-            className="p-8 rounded-2xl bg-secondary/30 border border-border/50"
+            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30"
           >
-            <span className="text-primary font-medium text-sm uppercase tracking-wider">Our Motivation</span>
-            <div className="mt-4 space-y-4 text-lg text-muted-foreground font-body leading-relaxed">
+            <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">Our Motivation</span>
+            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed">
               <p>
                 Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Egyptian exhibition at the Neues Museum Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
               </p>
@@ -122,29 +125,33 @@ const ContentSections = () => {
         </div>
       </section>
 
+      {/* Divider */}
+      <div className="w-16 h-px bg-border/50 mx-auto" />
+
       {/* Team */}
-      <section id="team" className="py-20">
+      <section id="team" className="py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.7 }}
           className="text-center"
         >
-          <span className="text-primary font-medium text-sm uppercase tracking-wider">The Team</span>
-          <h2 className="font-display text-3xl md:text-4xl font-light text-foreground mt-4 mb-12">
+          <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">The Team</span>
+          <h2 className="font-display text-2xl md:text-3xl font-light text-foreground mt-4 mb-16 uppercase tracking-[0.1em]">
             Meet the Team
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-4xl mx-auto">
-            {teamMembers.map((member) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 max-w-4xl mx-auto">
+            {teamMembers.map((member, i) => (
               <motion.div
                 key={member.name}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="flex flex-col items-center text-center"
               >
-                <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden border-2 border-primary/30 mb-4 bg-secondary">
+                <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden border border-border/40 mb-4 bg-secondary/50">
                   {member.image ? (
                     <img
                       src={member.image}
@@ -152,16 +159,16 @@ const ContentSections = () => {
                       className="w-full h-full object-cover"
                     />
                   ) : (
-                    <div className="w-full h-full flex items-center justify-center text-2xl font-display font-bold text-primary">
+                    <div className="w-full h-full flex items-center justify-center text-2xl font-display font-light text-primary/60">
                       {member.name.split(" ").map(n => n[0]).join("")}
                     </div>
                   )}
                 </div>
-                <h3 className="font-display text-sm font-semibold text-foreground">
+                <h3 className="font-display text-sm font-light text-foreground tracking-wide">
                   {member.name}
                 </h3>
                 {member.role && (
-                  <p className="text-xs text-muted-foreground mt-1 leading-snug">
+                  <p className="text-xs text-muted-foreground/60 mt-1 leading-snug font-body">
                     {member.role}
                   </p>
                 )}

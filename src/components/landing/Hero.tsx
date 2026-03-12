@@ -12,52 +12,57 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Mystical sunken library with ancient manuscripts"
-          className="w-full h-full object-cover opacity-60"
+          className="w-full h-full object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-background/40" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background/50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/85 to-background/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-background/60" />
       </div>
 
-      {/* Animated Glow Effects */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[150px] animate-glow-pulse" />
-      <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-accent/15 rounded-full blur-[120px] animate-glow-pulse animation-delay-200" />
+      {/* Single subtle glow */}
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-primary/10 rounded-full blur-[200px]" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-4xl mx-auto"
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="max-w-5xl mx-auto"
         >
-
           {/* Headline */}
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-display font-light leading-tight mb-6 uppercase tracking-wide text-foreground/80"
+            transition={{ duration: 1, delay: 0.2 }}
+            className="font-display font-light leading-[1.15] mb-8 uppercase tracking-[0.15em] text-foreground"
           >
-            <span className="text-4xl md:text-5xl lg:text-6xl block">History Stands Before You.</span>
+            <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">History Stands Before You.</span>
             <span className="text-4xl md:text-5xl lg:text-6xl gradient-text block">Hear the Voices of the Past</span>
           </motion.h1>
 
+          {/* Subtle divider */}
+          <motion.div
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="w-24 h-px bg-primary/40 mx-auto mb-8"
+          />
+
           {/* Subheadline */}
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-balance"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 font-body leading-relaxed"
           >
-            Custom AI avatars of historical personalities that interact, educate, 
-            and inspire. Transform your museum experience with conversational AI.
+            Interactive AI avatars of historical personalities that engage in conversation with your museum guests.
           </motion.p>
 
           {/* CTAs */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Button variant="hero" size="xl" className="group">
@@ -74,22 +79,26 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
-            className="mt-16 pt-8 border-t border-border/30"
+            transition={{ duration: 0.8, delay: 1 }}
+            className="mt-20 pt-8 border-t border-border/20"
           >
-            <p className="text-sm text-muted-foreground mb-4">
-              Supported and Endorsed by
+            <p className="text-xs text-muted-foreground/60 uppercase tracking-[0.2em] mb-5">
+              Supported by
             </p>
-            <div className="flex items-center justify-center gap-8 flex-wrap">
-              <img src={dschoolLogo} alt="HPI d-school" className="h-10 opacity-60 grayscale brightness-150 contrast-125" style={{ filter: "grayscale(100%) brightness(1.8) contrast(1.1) sepia(100%) hue-rotate(5deg) saturate(3)" }} />
-              <span className="text-lg font-display font-semibold text-foreground/70">
-                Startup Service Potsdam Transfer
+            <div className="flex items-center justify-center gap-10 flex-wrap">
+              <img
+                src={dschoolLogo}
+                alt="HPI d-school"
+                className="h-8 opacity-50"
+                style={{ filter: "grayscale(100%) brightness(1.8) contrast(1.1) sepia(100%) hue-rotate(5deg) saturate(3)" }}
+              />
+              <span className="text-sm font-display font-light text-foreground/50 tracking-wider">
+                Potsdam Transfer
               </span>
             </div>
           </motion.div>
         </motion.div>
       </div>
-
     </section>
   );
 };
