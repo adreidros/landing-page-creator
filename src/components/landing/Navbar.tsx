@@ -49,15 +49,6 @@ const Navbar = () => {
               </a>)}
           </div>
 
-          {/* Desktop CTA */}
-          <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost" size="sm">
-              Sign In
-            </Button>
-            <Button variant="glow" size="sm">
-              Get Started
-            </Button>
-          </div>
 
           {/* Mobile Menu Button */}
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="md:hidden p-2">
