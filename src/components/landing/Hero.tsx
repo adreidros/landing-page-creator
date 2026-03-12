@@ -36,38 +36,17 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="font-display font-light leading-[1.15] mt-8 mb-8 uppercase tracking-[0.15em] text-foreground"
           >
-            <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">
+            <span className="text-3xl md:text-4xl lg:text-5xl block text-foreground/70">
               <span className="text-primary">History</span> Stands Before You.
-            </span>
-            <span className="text-4xl md:text-5xl lg:text-6xl block">
-              Hear the <span className="text-primary">Voices of the Past</span>
             </span>
           </motion.h1>
 
-          {/* Subtle divider */}
-          <motion.div
-            initial={{ scaleX: 0 }}
-            animate={{ scaleX: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="w-24 h-px bg-primary/40 mx-auto mb-8"
-          />
-
-          {/* Subheadline */}
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 font-body leading-relaxed"
-          >
-            Interactive AI avatars of historical personalities that engage in conversation with your museum guests.
-          </motion.p>
-
-          {/* CTAs */}
+          {/* CTAs between headline lines */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 my-10"
           >
             <Button variant="hero" size="xl" className="group">
               Request a Demo
@@ -78,6 +57,34 @@ const Hero = () => {
               Watch Video
             </Button>
           </motion.div>
+
+          {/* Second headline line */}
+          <motion.p
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.3 }}
+            className="font-display font-light uppercase tracking-[0.15em] text-4xl md:text-5xl lg:text-6xl text-foreground mb-8"
+          >
+            Hear the <span className="text-primary">Voices of the Past</span>
+          </motion.p>
+
+          {/* Subtle divider */}
+          <motion.div
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="w-24 h-px bg-primary/40 mx-auto mb-8"
+          />
+
+          {/* Subheadline */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 font-body leading-relaxed"
+          >
+            Interactive AI avatars of historical personalities that engage in conversation with your museum guests.
+          </motion.p>
 
           {/* Trust Indicators */}
           <motion.div
