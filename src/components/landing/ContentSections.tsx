@@ -92,7 +92,7 @@ const ContentSections = () => {
             
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl">The Product</span>
             <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
-              <p>
+              <p className="text-justify">
                 Great personalities have a lot to say – far more than can fit on an information board. Our AI-powered avatars follow our ethical guidelines and have access to historically curated databases chosen by you – and only those databases.
               </p>
               <p>
