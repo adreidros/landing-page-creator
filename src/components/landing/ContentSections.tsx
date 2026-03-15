@@ -72,7 +72,7 @@ const ContentSections = () => {
           className="mt-16 py-8 px-8 rounded-xl border border-primary/15 bg-primary/5">
           
           <p className="font-display text-lg md:text-xl font-light text-foreground/80 leading-relaxed text-center tracking-wide">
-            Transform your exhibition into a stage for dialogue that transcends millenia
+            The knowledge of an entire permanent exhibition gathered on the surface of a single screen.
           </p>
         </motion.div>
       </section>
