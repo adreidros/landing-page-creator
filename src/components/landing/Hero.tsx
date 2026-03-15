@@ -37,7 +37,7 @@ const Hero = () => {
             className="font-display font-light leading-[1.3] mt-16 mb-8 uppercase tracking-[0.15em] text-foreground">
             
             <span className="text-3xl md:text-4xl lg:text-5xl block mb-3 text-foreground/70">
-              HISTORY STANDS BEFORE YOU
+              <span className="text-primary">HISTORY</span> STANDS BEFORE YOU
             </span>
             <span className="text-4xl md:text-5xl lg:text-6xl block">
               Hear the <span className="text-primary">Voices of the Past</span>
