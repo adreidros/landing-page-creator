@@ -117,7 +117,7 @@ const ContentSections = () => {
               <p className="text-justify">
                 Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Egyptian exhibition at the Neues Museum Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
               </p>
-              <p>
+              <p className="text-justify">
                 Thanks to the support of Potsdam Transfer, we are now standing on our own two feet. Our goal: to fill more museums with the sound of intercultural and intergenerational dialogue!
               </p>
             </div>
