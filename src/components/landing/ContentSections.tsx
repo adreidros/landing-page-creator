@@ -92,13 +92,14 @@ const ContentSections = () => {
             
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl">The Product</span>
             <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
-              <p className="text-justify">
+              <p className="text-justify font-serif">
                 Great personalities have a lot to say – far more than can fit on an information board. Our AI-powered avatars follow our ethical guidelines and have access to historically curated databases chosen by you – and only those databases.
               </p>
-              <p className="text-justify">
+              <p className="text-justify font-serif">
                 They are always open to conversation and convey the information that visitors are really interested in. This means that both young history enthusiasts and experienced season ticket holders get their money's worth.
               </p>
               <p>
+
               </p>
             </div>
           </motion.div>
@@ -112,9 +113,9 @@ const ContentSections = () => {
             className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30">
             
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl text-right">Our Motivation</span>
-            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
+            <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-justify font-serif">
               <p className="text-justify">
-                Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Ägyptisches Museum und Papyrussammlung in Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
+                Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Egyptian exhibition at the Neues Museum Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
               </p>
               <p className="text-justify">
                 Thanks to the support of Potsdam Transfer, we are now standing on our own two feet. Our goal: to fill more museums with the sound of intercultural and intergenerational dialogue!
@@ -122,25 +123,19 @@ const ContentSections = () => {
             </div>
           </motion.div>
         </div>
-        {/* Subheader - full width */}
-        <motion.div
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mt-16 py-8 px-8 rounded-xl border border-primary/15 bg-primary/5">
-          
-          <p className="font-display text-lg md:text-xl font-light text-foreground/80 leading-relaxed text-center tracking-wide">
-            The knowledge of an entire permanent exhibition gathered on the surface of a single screen.
-          </p>
-        </motion.div>
+      </section>
 
+      {/* Divider */}
+      <div className="w-16 h-px bg-border/50 mx-auto" />
+
+      {/* Team */}
+      <section id="team" className="py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="text-center mt-16">
+          className="text-center">
           
           <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl">The Team</span>
           
