@@ -22,16 +22,9 @@ const CTA = () => {
 
           <div className="w-16 h-px bg-primary/30 mx-auto my-8" />
 
-          <p className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto font-body leading-relaxed">
+          <p className="text-lg text-muted-foreground max-w-xl mx-auto font-body leading-relaxed">
             Schedule a demo to see our AI avatars in action.
           </p>
-
-          <div className="flex items-center justify-center">
-            <Button variant="hero" size="xl" className="group">
-              Schedule a demo to see our AI avatars in action
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </div>
         </motion.div>
       </div>
     </section>
