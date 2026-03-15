@@ -6,12 +6,12 @@ import teamSarah from "@/assets/team-sarah.png";
 import teamEmre from "@/assets/team-emre.png";
 
 const teamMembers = [
-  { name: "Imge Yüzüncüoglu", role: "M.Sc. Cognitive Systems", image: teamImge },
-  { name: "Max Rütz", role: "", image: teamMax },
-  { name: "Klara Klostermann", role: "B.Sc. Politics and Economics", image: teamKlara },
-  { name: "Sarah-Lea Langner", role: "", image: teamSarah },
-  { name: "Emre Yüzüncüoglu", role: "M.A. Ancient Cultures of the Eastern Mediterranean", image: teamEmre },
-];
+{ name: "Imge Yüzüncüoglu", role: "M.Sc. Cognitive Systems", image: teamImge },
+{ name: "Max Rütz", role: "", image: teamMax },
+{ name: "Klara Klostermann", role: "B.Sc. Politics and Economics", image: teamKlara },
+{ name: "Sarah-Lea Langner", role: "", image: teamSarah },
+{ name: "Emre Yüzüncüoglu", role: "M.A. Ancient Cultures of the Eastern Mediterranean", image: teamEmre }];
+
 
 const ContentSections = () => {
   return (
@@ -25,8 +25,8 @@ const ContentSections = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="flex flex-col justify-center"
-          >
+            className="flex flex-col justify-center">
+            
             <h2 className="font-display text-lg md:text-xl lg:text-2xl font-light text-foreground uppercase tracking-[0.1em] mb-8 whitespace-nowrap">
               We Catch Echoes of the Eternal
             </h2>
@@ -50,8 +50,8 @@ const ContentSections = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
             id="demo"
-            className="w-full rounded-xl bg-secondary/50 border border-border/50 flex items-center justify-center min-h-[400px]"
-          >
+            className="w-full rounded-xl bg-secondary/50 border border-border/50 flex items-center justify-center min-h-[400px]">
+            
             <div className="text-center text-muted-foreground">
               <div className="w-14 h-14 rounded-full bg-primary/15 flex items-center justify-center mx-auto mb-3">
                 <svg className="w-7 h-7 text-primary/70" fill="currentColor" viewBox="0 0 24 24">
@@ -69,8 +69,8 @@ const ContentSections = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mt-16 py-8 px-8 rounded-xl border border-primary/15 bg-primary/5"
-        >
+          className="mt-16 py-8 px-8 rounded-xl border border-primary/15 bg-primary/5">
+          
           <p className="font-display text-lg md:text-xl font-light text-foreground/80 leading-relaxed text-center tracking-wide">
             Transform your exhibition into a stage for dialogue that transcends millenia
           </p>
@@ -88,8 +88,8 @@ const ContentSections = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30"
-          >
+            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30">
+            
             <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">The Product</span>
             <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
               <p>
@@ -110,8 +110,8 @@ const ContentSections = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
             id="motivation"
-            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30"
-          >
+            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30">
+            
             <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">Our Motivation</span>
             <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
               <p>
@@ -135,50 +135,50 @@ const ContentSections = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="text-center"
-        >
+          className="text-center">
+          
           <span className="text-primary/70 font-display text-xs uppercase tracking-[0.2em]">The Team</span>
-          <h2 className="font-display text-2xl md:text-3xl font-light text-foreground mt-4 mb-16 uppercase tracking-[0.1em]">
-            Meet the Team
-          </h2>
+          
+
+          
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 max-w-4xl mx-auto">
-            {teamMembers.map((member, i) => (
-              <motion.div
-                key={member.name}
-                initial={{ opacity: 0, y: 15 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
-                className="flex flex-col items-center text-center"
-              >
+            {teamMembers.map((member, i) =>
+            <motion.div
+              key={member.name}
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.08 }}
+              className="flex flex-col items-center text-center">
+              
                 <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden border border-border/40 mb-4 bg-secondary/50">
-                  {member.image ? (
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center text-2xl font-display font-light text-primary/60">
-                      {member.name.split(" ").map(n => n[0]).join("")}
+                  {member.image ?
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover" /> :
+
+
+                <div className="w-full h-full flex items-center justify-center text-2xl font-display font-light text-primary/60">
+                      {member.name.split(" ").map((n) => n[0]).join("")}
                     </div>
-                  )}
+                }
                 </div>
                 <h3 className="font-display text-sm font-light text-foreground tracking-wide">
                   {member.name}
                 </h3>
-                {member.role && (
-                  <p className="text-xs text-muted-foreground/60 mt-1 leading-snug font-body">
+                {member.role &&
+              <p className="text-xs text-muted-foreground/60 mt-1 leading-snug font-body">
                     {member.role}
                   </p>
-                )}
+              }
               </motion.div>
-            ))}
+            )}
           </div>
         </motion.div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default ContentSections;
