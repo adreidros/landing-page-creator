@@ -114,7 +114,7 @@ const ContentSections = () => {
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl text-right">Our Motivation</span>
             <div className="mt-6 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
               <p className="text-justify">
-                Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Egyptian exhibition at the Neues Museum Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
+                Reviving History began as a student project at the Hasso Plattner Institute's d-school in collaboration with the Ägyptisches Museum und Papyrussammlung in Berlin. There, we succeeded in making the exciting stories and personal destinies hidden behind hieroglyphics accessible to a wide audience.
               </p>
               <p className="text-justify">
                 Thanks to the support of Potsdam Transfer, we are now standing on our own two feet. Our goal: to fill more museums with the sound of intercultural and intergenerational dialogue!
