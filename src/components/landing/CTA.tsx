@@ -26,14 +26,10 @@ const CTA = () => {
             Schedule a demo to see our AI avatars in action.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex items-center justify-center">
             <Button variant="hero" size="xl" className="group">
-              Schedule a Demo
+              Schedule a demo to see our AI avatars in action
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button variant="heroOutline" size="xl">
-              <Mail className="w-5 h-5" />
-              Contact Us
             </Button>
           </div>
         </motion.div>

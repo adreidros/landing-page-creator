@@ -35,12 +35,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="font-display font-bold text-lg text-primary-foreground">RH</span>
-            </div>
-            <span className="font-display text-xl font-semibold">Reviving History</span>
-          </a>
+          <div className="w-10 h-10" /> {/* Spacer */}
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">

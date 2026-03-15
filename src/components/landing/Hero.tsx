@@ -69,12 +69,8 @@ const Hero = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4">
             
             <Button variant="hero" size="xl" className="group">
-              Request a Demo
+              Contact us to Schedule a Demo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button variant="heroOutline" size="xl" className="group">
-              <Play className="w-5 h-5" />
-              Watch Video
             </Button>
           </motion.div>
 
