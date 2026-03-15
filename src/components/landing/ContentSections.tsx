@@ -99,7 +99,6 @@ const ContentSections = () => {
                 They are always open to conversation and convey the information that visitors are really interested in. This means that both young history enthusiasts and experienced season ticket holders get their money's worth.
               </p>
               <p>
-                The knowledge of an entire permanent exhibition gathered on the surface of a single screen.
               </p>
             </div>
           </motion.div>
