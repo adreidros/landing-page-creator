@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-import heroImage from "@/assets/hero-library.jpg";
+import heroImage from "@/assets/hero-temple.jpg";
 import dschoolLogo from "@/assets/logo-dschool.png";
 
 const Hero = () => {
