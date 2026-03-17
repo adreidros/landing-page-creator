@@ -31,7 +31,7 @@ const ContentSections = () => {
             
             {/* Background helmet image */}
             <div className="absolute inset-0">
-              <img src={bgHelmet} alt="" className="w-full h-full object-cover opacity-15" />
+              <img src={bgHelmet} alt="" className="w-full h-full object-cover opacity-30" />
               <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/60 to-background/90" />
             </div>
             <div className="relative z-10 p-8">
