@@ -88,7 +88,7 @@ const ContentSections = () => {
           <img src={bgPrimaporta} alt="" className="w-full h-full object-cover opacity-15" />
           <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
