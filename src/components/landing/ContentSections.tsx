@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import bgPrimaporta from "@/assets/bg-primaporta.jpg";
+import bgHelmet from "@/assets/bg-corinthian-helmet.jpg";
 import teamImge from "@/assets/team-imge.png";
 import teamMax from "@/assets/team-max.png";
 import teamKlara from "@/assets/team-klara.jpg";
