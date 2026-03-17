@@ -113,7 +113,7 @@ const ContentSections = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
             id="motivation"
-            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30">
+            className="p-8 md:p-10 rounded-xl bg-card/50 border border-primary/30">
             
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl text-right">Our Motivation</span>
             <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-justify font-serif">
