@@ -94,7 +94,7 @@ const ContentSections = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="p-8 md:p-10 rounded-xl bg-card/50 border border-border/30">
+            className="p-8 md:p-10 rounded-xl bg-card/50 border border-primary/30">
             
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl">The Product</span>
             <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
