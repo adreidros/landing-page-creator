@@ -143,7 +143,7 @@ const ContentSections = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="py-8 px-8 rounded-xl border border-primary/15 bg-primary/5">
+        className="py-8 px-8 rounded-xl border border-primary/30 bg-primary/15">
         
         <p className="font-display text-lg md:text-xl font-light text-foreground/80 leading-relaxed text-center tracking-wide">
           The knowledge of an entire exhibition on the surface of a single screen.
