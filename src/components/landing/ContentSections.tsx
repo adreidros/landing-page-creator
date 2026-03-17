@@ -137,8 +137,21 @@ const ContentSections = () => {
         </div>
       </section>
 
+      {/* Subheader - full width */}
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="py-8 px-8 rounded-xl border border-primary/15 bg-primary/5">
+        
+        <p className="font-display text-lg md:text-xl font-light text-foreground/80 leading-relaxed text-center tracking-wide">
+          The knowledge of an entire exhibition on the surface of a single screen.
+        </p>
+      </motion.div>
+
       {/* Divider */}
-      <div className="w-16 h-px bg-border/50 mx-auto" />
+      <div className="w-16 h-px bg-border/50 mx-auto my-0" />
 
       {/* Team */}
       <section id="team" className="py-20">
