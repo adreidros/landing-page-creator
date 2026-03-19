@@ -151,7 +151,7 @@ const ContentSections = () => {
       </motion.div>
 
       {/* Divider */}
-      <div className="w-16 h-px bg-border/50 mx-auto my-0" />
+      <div className="w-16 h-px bg-border/50 mx-auto my-16" />
 
       {/* Team */}
       <section id="team" className="py-20">
