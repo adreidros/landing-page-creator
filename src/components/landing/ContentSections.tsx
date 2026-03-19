@@ -154,7 +154,7 @@ const ContentSections = () => {
       <div className="w-16 h-px bg-border/50 mx-auto my-16" />
 
       {/* Team */}
-      <section id="team" className="py-20">
+      <section id="team" className="pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

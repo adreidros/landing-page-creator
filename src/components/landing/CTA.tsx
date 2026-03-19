@@ -4,7 +4,7 @@ import { ArrowRight, Mail } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-16 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-primary/5" />
 
       <div className="container mx-auto px-6 relative z-10">
