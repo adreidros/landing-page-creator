@@ -89,7 +89,7 @@ const Hero = () => {
                 src={dschoolLogo}
                 alt="HPI d-school"
                 className="h-8 opacity-50"
-                style={{ filter: "grayscale(100%) brightness(1.8) contrast(1.1) sepia(100%) hue-rotate(5deg) saturate(3)" }} />
+                style={{ filter: "grayscale(100%) brightness(0.7) contrast(1.2) sepia(30%) invert(1)" }} />
               
               <span className="text-sm font-display font-light text-foreground/50 tracking-wider">
                 Potsdam Transfer
