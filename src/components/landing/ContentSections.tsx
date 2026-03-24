@@ -81,7 +81,7 @@ const ContentSections = () => {
           transition={{ duration: 0.6 }}
           className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-primary/15 max-w-2xl mx-auto">
           
-          <p className="font-display text-xl md:text-2xl font-light text-black leading-relaxed text-center tracking-wide uppercase">
+          <p className="font-display text-xl md:text-2xl font-light text-black leading-relaxed text-center tracking-wide uppercase" style={{ textShadow: '0 0 8px hsl(43 74% 52% / 0.6), 0 0 16px hsl(43 74% 52% / 0.3)' }}>
             Transform your exhibition into a stage for dialogue<br />that transcends millenia
           </p>
         </motion.div>
@@ -145,7 +145,7 @@ const ContentSections = () => {
         transition={{ duration: 0.6 }}
         className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-primary/15 max-w-2xl mx-auto">
         
-        <p className="font-display text-xl md:text-2xl font-light text-black leading-relaxed text-center tracking-wide uppercase">
+        <p className="font-display text-xl md:text-2xl font-light text-black leading-relaxed text-center tracking-wide uppercase" style={{ textShadow: '0 0 8px hsl(43 74% 52% / 0.6), 0 0 16px hsl(43 74% 52% / 0.3)' }}>
           The knowledge of an entire exhibition<br />on the surface of a single screen.
         </p>
       </motion.div>
