@@ -80,10 +80,11 @@ const ContentSections = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
           className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-primary/15 max-w-2xl mx-auto">
-          
+          <div className="border border-primary/50 rounded-lg px-6 py-4">
           <p className="font-display text-xl md:text-2xl font-light text-black leading-relaxed text-center tracking-wide uppercase">
             Transform your exhibition into a stage for dialogue<br />that transcends millenia
           </p>
+          </div>
         </motion.div>
       </section>
 
@@ -144,10 +145,11 @@ const ContentSections = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
         className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-primary/15 max-w-2xl mx-auto">
-        
+        <div className="border border-primary/50 rounded-lg px-6 py-4">
         <p className="font-display text-xl md:text-2xl font-light text-black leading-relaxed text-center tracking-wide uppercase">
           The knowledge of an entire exhibition<br />on the surface of a single screen.
         </p>
+        </div>
       </motion.div>
 
       {/* Divider */}
