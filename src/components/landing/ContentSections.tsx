@@ -179,7 +179,8 @@ const ContentSections = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover" /> :
+                  className="w-full h-full object-cover"
+                  style={member.imagePosition ? { objectPosition: member.imagePosition } : undefined} /> :
 
                 <div className="w-full h-full flex items-center justify-center text-2xl font-display font-light text-primary/60">
                       {member.name.split(" ").map((n) => n[0]).join("")}
