@@ -12,7 +12,7 @@ const teamMembers = [
 { name: "Max Rütz", role: "", image: teamMax },
 { name: "Klara Klostermann", role: "B.Sc. Politics and Economics", image: teamKlara },
 { name: "Sarah-Lea Langner", role: "", image: teamSarah },
-{ name: "Emre Yüzüncüoglu", role: "M.A. Ancient Cultures of the Eastern Mediterranean", image: teamEmre }];
+{ name: "Emre Yüzüncüoglu", role: "M.A. Ancient Cultures of the Eastern Mediterranean", image: teamEmre, imagePosition: "center 30%" }];
 
 
 const ContentSections = () => {
@@ -179,7 +179,8 @@ const ContentSections = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover" /> :
+                  className="w-full h-full object-cover"
+                  style={member.imagePosition ? { objectPosition: member.imagePosition } : undefined} /> :
 
                 <div className="w-full h-full flex items-center justify-center text-2xl font-display font-light text-primary/60">
                       {member.name.split(" ").map((n) => n[0]).join("")}
