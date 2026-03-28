@@ -190,8 +190,8 @@ const ContentSections = () => {
                 <h3 className="font-display text-sm font-light text-foreground tracking-wide">
                   {member.name}
                 </h3>
-                {member.role &&
-              <p className="text-xs text-muted-foreground/60 mt-1 leading-snug font-body">
+{member.role &&
+              <p className="text-xs text-muted-foreground/60 mt-1 leading-snug font-body whitespace-pre-line">
                     {member.role}
                   </p>
               }
