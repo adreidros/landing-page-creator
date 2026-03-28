@@ -9,7 +9,7 @@ import teamEmre from "@/assets/team-emre.jpg";
 
 const teamMembers = [
 { name: "Imge Yüzüncüoglu", role: "M.Sc. Cognitive Systems", image: teamImge },
-{ name: "Max Rütz", role: "", image: teamMax },
+{ name: "Max Rütz", role: "M.Sc. Computer Science\nDevelopment + Communication", image: teamMax },
 { name: "Klara Klostermann", role: "B.Sc. Politics and Economics", image: teamKlara },
 { name: "Sarah-Lea Langner", role: "", image: teamSarah },
 { name: "Emre Yüzüncüoglu", role: "M.A. Ancient Cultures of the Eastern Mediterranean", image: teamEmre, imagePosition: "center 20%" }];
@@ -190,8 +190,8 @@ const ContentSections = () => {
                 <h3 className="font-display text-sm font-light text-foreground tracking-wide">
                   {member.name}
                 </h3>
-                {member.role &&
-              <p className="text-xs text-muted-foreground/60 mt-1 leading-snug font-body">
+{member.role &&
+              <p className="text-xs text-muted-foreground/60 mt-1 leading-snug font-body whitespace-pre-line">
                     {member.role}
                   </p>
               }
