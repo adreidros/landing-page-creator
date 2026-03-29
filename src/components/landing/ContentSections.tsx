@@ -60,16 +60,15 @@ const ContentSections = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
             id="demo"
-            className="w-full rounded-xl bg-secondary/50 border border-border/50 flex items-center justify-center min-h-[400px]">
+            className="w-full rounded-xl overflow-hidden border border-border/50 min-h-[400px]">
             
-            <div className="text-center text-muted-foreground">
-              <div className="w-14 h-14 rounded-full bg-primary/15 flex items-center justify-center mx-auto mb-3">
-                <svg className="w-7 h-7 text-primary/70" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <p className="text-xs text-muted-foreground/50 uppercase tracking-wider">Demo Video</p>
-            </div>
+            <iframe
+              className="w-full h-full min-h-[400px] rounded-xl"
+              src="https://www.youtube.com/embed/uMF18nUC168"
+              title="Demo Video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </motion.div>
         </div>
 
