@@ -68,10 +68,12 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.7 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4">
             
-            <Button variant="hero" size="xl" className="group">
-              Contact us to Schedule a Demo
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <a href="mailto:info@reviving-history.de">
+              <Button variant="hero" size="xl" className="group">
+                Contact us to Schedule a Demo
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
           </motion.div>
 
           {/* Trust Indicators */}
