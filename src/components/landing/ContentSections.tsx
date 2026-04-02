@@ -162,7 +162,7 @@ const ContentSections = () => {
           
           <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl">The Team</span>
           
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 max-w-4xl mx-auto">
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-10 max-w-3xl mx-auto">
             {teamMembers.map((member, i) =>
             <motion.div
               key={member.name}
