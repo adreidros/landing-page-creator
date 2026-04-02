@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import heroImage from "@/assets/hero-temple.jpg";
 import dschoolLogo from "@/assets/logo-hpi-d-school.svg";
+import potsdamTransferLogo from "@/assets/logo-potsdam-transfer.svg";
 
 const Hero = () => {
   return (
