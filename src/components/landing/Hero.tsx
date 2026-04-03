@@ -77,6 +77,13 @@ const Hero = () => {
             </a>
           </motion.div>
 
+          <p className="mt-4 text-sm text-muted-foreground/60 font-body">
+            or send us an e-mail at{" "}
+            <a href="mailto:info@reviving-history.de" className="text-primary/70 hover:text-primary transition-colors underline underline-offset-2">
+              info@reviving-history.de
+            </a>
+          </p>
+
           {/* Trust Indicators */}
           <motion.div
             initial={{ opacity: 0 }}
