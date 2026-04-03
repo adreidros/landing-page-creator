@@ -98,8 +98,7 @@ const Hero = () => {
               <img
                 src={dschoolLogo}
                 alt="HPI D-School"
-                className="h-7 opacity-60"
-                style={{ filter: "brightness(0) invert(1) opacity(0.7)" }} />
+                className="h-7 opacity-60" />
               
               <img
                 src={potsdamTransferLogo}
