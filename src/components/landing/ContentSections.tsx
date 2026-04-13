@@ -63,7 +63,7 @@ const ContentSections = () => {
             
             <iframe
               className="w-full h-full min-h-[400px] rounded-xl"
-              src="https://www.youtube.com/embed/uMF18nUC168"
+              src="https://www.youtube.com/embed/2i9AAItqkEw"
               title="Demo Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
