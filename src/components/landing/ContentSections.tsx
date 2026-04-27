@@ -60,7 +60,7 @@ const ContentSections = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
             id="demo"
-            className="w-full self-start rounded-xl overflow-hidden border border-border/50 bg-background aspect-video">
+            className="w-full self-center rounded-xl overflow-hidden border border-border/50 bg-background aspect-video">
             
             <video
               className="w-full h-full rounded-xl object-cover"
