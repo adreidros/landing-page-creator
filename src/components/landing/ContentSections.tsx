@@ -6,6 +6,7 @@ import teamMax from "@/assets/max-ruetz.png";
 import teamKlara from "@/assets/team-klara.png";
 
 import teamEmre from "@/assets/team-emre.jpg";
+import demoVideo from "@/assets/echolore-demo.mp4";
 
 const teamMembers = [
 { name: "Imge Yüzüncüoglu", role: "M.Sc. Cognitive Systems\nStrategy & Operations", image: teamImge },
@@ -61,12 +62,13 @@ const ContentSections = () => {
             id="demo"
             className="w-full rounded-xl overflow-hidden border border-border/50 min-h-[400px]">
             
-            <iframe
-              className="w-full h-full min-h-[400px] rounded-xl"
-              src="https://www.youtube.com/embed/2i9AAItqkEw"
+            <video
+              className="w-full h-full min-h-[400px] rounded-xl object-cover"
+              src={demoVideo}
               title="Demo Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              controls
+              playsInline
+              preload="metadata"
             />
           </motion.div>
         </div>
