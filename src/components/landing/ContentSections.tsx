@@ -60,10 +60,10 @@ const ContentSections = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
             id="demo"
-            className="w-full rounded-xl overflow-hidden border border-border/50 bg-background flex items-center justify-center">
+            className="w-full aspect-video rounded-xl overflow-hidden border border-border/50 bg-background">
             
             <video
-              className="w-full h-auto max-h-full rounded-xl object-contain"
+              className="w-full h-full rounded-xl object-cover"
               src={demoVideo}
               title="Demo Video"
               controls
