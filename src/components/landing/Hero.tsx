@@ -69,7 +69,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.7 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4">
             
-            <a href="mailto:info@echolore.de">
+            <a href="#contact">
               <Button variant="hero" size="xl" className="group">
                 Contact us to Schedule a Demo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
