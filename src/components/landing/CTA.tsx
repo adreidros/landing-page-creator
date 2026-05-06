@@ -27,7 +27,7 @@ const CTA = () => {
           
 
           <div className="flex items-center justify-center">
-            <a href="mailto:info@echolore.de">
+            <a href="#contact">
               <Button variant="hero" size="xl" className="group">
                 Schedule a demo to see our AI avatars in action
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
