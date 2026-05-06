@@ -9,10 +9,10 @@ import { Send } from "lucide-react";
 import { z } from "zod";
 
 const contactSchema = z.object({
-  name: z.string().trim().nonempty({ message: "Bitte gib deinen Namen an" }).max(100),
-  email: z.string().trim().email({ message: "Ungültige E-Mail-Adresse" }).max(255),
+  name: z.string().trim().nonempty({ message: "Please enter your name" }).max(100),
+  email: z.string().trim().email({ message: "Invalid email address" }).max(255),
   subject: z.string().trim().max(150).optional(),
-  message: z.string().trim().nonempty({ message: "Bitte gib eine Nachricht ein" }).max(2000),
+  message: z.string().trim().nonempty({ message: "Please enter a message" }).max(2000),
 });
 
 const ContactForm = () => {
@@ -32,12 +32,12 @@ const ContactForm = () => {
       return;
     }
     setErrors({});
-    const subject = encodeURIComponent(form.subject || "Anfrage über echolore.de");
+    const subject = encodeURIComponent(form.subject || "Inquiry via echolore.de");
     const body = encodeURIComponent(
-      `Name: ${form.name}\nE-Mail: ${form.email}\n\n${form.message}`
+      `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`
     );
     window.location.href = `mailto:info@echolore.de?subject=${subject}&body=${body}`;
-    toast({ title: "E-Mail-Programm geöffnet", description: "Bitte sende die vorbereitete Nachricht ab." });
+    toast({ title: "Email client opened", description: "Please send the prepared message." });
   };
 
   return (
@@ -55,7 +55,7 @@ const ContactForm = () => {
           </h2>
           <div className="w-16 h-px bg-primary/30 mx-auto my-6" />
           <p className="text-muted-foreground font-body">
-            Schreib uns eine Nachricht – wir melden uns zeitnah zurück.
+            Send us a message – we'll get back to you shortly.
           </p>
         </motion.div>
 
@@ -80,7 +80,7 @@ const ContactForm = () => {
               {errors.name && <p className="text-xs text-destructive">{errors.name}</p>}
             </div>
             <div className="space-y-2">
-              <Label htmlFor="email" className="font-body text-foreground/80">E-Mail</Label>
+              <Label htmlFor="email" className="font-body text-foreground/80">Email</Label>
               <Input
                 id="email"
                 type="email"
@@ -93,7 +93,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="space-y-2">
-            <Label htmlFor="subject" className="font-body text-foreground/80">Betreff</Label>
+            <Label htmlFor="subject" className="font-body text-foreground/80">Subject</Label>
             <Input
               id="subject"
               value={form.subject}
@@ -102,7 +102,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="message" className="font-body text-foreground/80">Nachricht</Label>
+            <Label htmlFor="message" className="font-body text-foreground/80">Message</Label>
             <Textarea
               id="message"
               rows={6}
@@ -115,7 +115,7 @@ const ContactForm = () => {
           </div>
           <div className="flex justify-center pt-2">
             <Button type="submit" variant="hero" size="xl" className="group">
-              Nachricht senden
+              Send Message
               <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
