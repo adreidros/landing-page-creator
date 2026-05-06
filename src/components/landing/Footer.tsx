@@ -7,12 +7,20 @@ const Footer = () => {
         <p className="text-sm text-muted-foreground">
           © 2026 EchoLore
         </p>
-        <Link
-          to="/impressum"
-          className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-        >
-          Impressum
-        </Link>
+        <div className="flex items-center gap-6">
+          <Link
+            to="/impressum"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Impressum
+          </Link>
+          <Link
+            to="/datenschutz"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Datenschutz
+          </Link>
+        </div>
       </div>
     </footer>
   );
