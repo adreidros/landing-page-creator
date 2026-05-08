@@ -28,7 +28,12 @@ const Impressum = () => {
             <h2 className="font-heading uppercase tracking-wider text-primary text-lg mb-3">
               Vertreten durch
             </h2>
-            <p>Emre Yüzüncüoglu (Geschäftsführer)</p>
+            <p>
+              Emre Yüzüncüoglu (Geschäftsführer)<br />
+              Imge Yüzüncüoglu<br />
+              Max Grütz<br />
+              Klara Klostermann
+            </p>
           </section>
 
           <section>
