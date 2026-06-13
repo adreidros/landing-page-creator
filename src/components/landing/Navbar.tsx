@@ -4,16 +4,16 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 const navLinks = [{
   name: "Demo",
-  href: "#demo"
+  href: "/#demo"
 }, {
   name: "The Product",
-  href: "#product"
+  href: "/#product"
 }, {
   name: "Our Motivation",
-  href: "#motivation"
+  href: "/#motivation"
 }, {
   name: "The Team",
-  href: "#team"
+  href: "/#team"
 }];
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
