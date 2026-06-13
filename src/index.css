@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 /* 
   Design System: EchoLore Visitenkarte
@@ -53,7 +53,7 @@
     --sage: 339 35% 50%;
     --ash: 339 15% 45%;
 
-    --font-display: 'Cinzel', serif;
+    --font-display: 'Cormorant', serif;
     --font-body: 'Montserrat', sans-serif;
 
     --sidebar-background: 56 55% 92%;
