@@ -5,7 +5,6 @@ import teamImge from "@/assets/team-imge.png";
 import teamMax from "@/assets/max-ruetz.png";
 import teamEmre from "@/assets/team-emre.jpg";
 import demoVideo from "@/assets/echolore-demo.mp4";
-import demoVideo from "@/assets/echolore-demo.mp4";
 
 const teamMembers = [
 { name: "Imge Yüzüncüoglu", role: "M.Sc. Cognitive Systems\nStrategy & Operations", image: teamImge },
