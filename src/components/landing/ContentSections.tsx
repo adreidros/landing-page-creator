@@ -3,15 +3,12 @@ import bgPrimaporta from "@/assets/bg-primaporta.jpg";
 import bgHelmet from "@/assets/bg-corinthian-helmet.jpg";
 import teamImge from "@/assets/team-imge.png";
 import teamMax from "@/assets/max-ruetz.png";
-import teamKlara from "@/assets/team-klara.png";
-
 import teamEmre from "@/assets/team-emre.jpg";
 import demoVideo from "@/assets/echolore-demo.mp4";
 
 const teamMembers = [
 { name: "Imge Yüzüncüoglu", role: "M.Sc. Cognitive Systems\nStrategy & Operations", image: teamImge },
 { name: "Max Rütz", role: "M.Sc. Computer Science\nDevelopment & Communication", image: teamMax },
-{ name: "Klara Klostermann", role: "B.Sc. Politics and Economics\nFinances & Ethics", image: teamKlara },
 { name: "Emre Yüzüncüoglu", role: "M.A. Ancient Cultures of the Eastern Mediterranean\nKnowledge Management & Communication", image: teamEmre, imagePosition: "center 20%" }];
 
 
@@ -164,7 +161,7 @@ const ContentSections = () => {
           
           <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl">The Team</span>
           
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-10 max-w-3xl mx-auto">
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-10 max-w-3xl mx-auto">
             {teamMembers.map((member, i) =>
             <motion.div
               key={member.name}
