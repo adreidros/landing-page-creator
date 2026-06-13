@@ -5,98 +5,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap');
 
 /* 
-  Design System: "Versunkene Bibliothek" (Sunken Library)
-  Elegant · mystisch · archäologisch · stiller Reichtum
-  
-  Obsidian-Schwarz #1C1A18 — Tiefe, Ernst, zeitlose Eleganz
-  Pergament-Elfenbein #E6DCCB — Geschichte, Wissen, Patina
-  Funkelndes Gold #D4AF37 — Glanz, Pracht, lebendiger Reichtum
-  Staubiges Salbeigrün #7A8471 — Archäologie, Erde, Ruhe
-  Aschgrau #6B6A67 — Stein, Alter, Dauer
+  Design System: EchoLore Visitenkarte
+  Cream/Ivory background with deep Burgundy accents
+
+  Cream #F4F1D2 — warm parchment background
+  Burgundy #6E1D38 — deep accent, headings, CTAs
 */
 
 @layer base {
   :root {
-    --background: 30 8% 10%;
-    --foreground: 38 38% 85%;
+    --background: 56 60% 90%;
+    --foreground: 339 58% 22%;
 
-    --card: 30 6% 14%;
-    --card-foreground: 38 38% 85%;
+    --card: 56 55% 93%;
+    --card-foreground: 339 58% 22%;
 
-    --popover: 30 6% 14%;
-    --popover-foreground: 38 38% 85%;
+    --popover: 56 55% 93%;
+    --popover-foreground: 339 58% 22%;
 
-    --primary: 43 74% 52%;
-    --primary-foreground: 30 8% 10%;
+    --primary: 339 58% 27%;
+    --primary-foreground: 56 60% 92%;
 
-    --secondary: 30 6% 18%;
-    --secondary-foreground: 38 38% 85%;
+    --secondary: 56 40% 85%;
+    --secondary-foreground: 339 58% 22%;
 
-    --muted: 30 5% 22%;
-    --muted-foreground: 45 4% 50%;
+    --muted: 56 30% 82%;
+    --muted-foreground: 339 20% 35%;
 
-    --accent: 92 8% 48%;
-    --accent-foreground: 38 38% 85%;
+    --accent: 339 45% 40%;
+    --accent-foreground: 56 60% 92%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 38 38% 85%;
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 56 60% 92%;
 
-    --border: 30 5% 20%;
-    --input: 30 5% 20%;
-    --ring: 43 74% 52%;
+    --border: 339 25% 70%;
+    --input: 56 30% 80%;
+    --ring: 339 58% 27%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --glow: 43 74% 52%;
-    --glow-muted: 43 50% 40%;
-    --gold: 43 74% 52%;
-    --parchment: 38 38% 85%;
-    --obsidian: 30 8% 10%;
-    --sage: 92 8% 48%;
-    --ash: 45 2% 41%;
+    --glow: 339 58% 35%;
+    --glow-muted: 339 40% 45%;
+    --gold: 339 58% 27%;
+    --parchment: 56 60% 90%;
+    --obsidian: 339 58% 18%;
+    --sage: 339 35% 50%;
+    --ash: 339 15% 45%;
 
     --font-display: 'Cinzel', serif;
     --font-body: 'Montserrat', sans-serif;
 
-    --sidebar-background: 30 6% 12%;
-    --sidebar-foreground: 38 38% 85%;
-    --sidebar-primary: 43 74% 52%;
-    --sidebar-primary-foreground: 30 8% 10%;
-    --sidebar-accent: 30 6% 18%;
-    --sidebar-accent-foreground: 38 38% 85%;
-    --sidebar-border: 30 5% 20%;
-    --sidebar-ring: 43 74% 52%;
+    --sidebar-background: 56 55% 92%;
+    --sidebar-foreground: 339 58% 22%;
+    --sidebar-primary: 339 58% 27%;
+    --sidebar-primary-foreground: 56 60% 92%;
+    --sidebar-accent: 56 40% 85%;
+    --sidebar-accent-foreground: 339 58% 22%;
+    --sidebar-border: 339 25% 70%;
+    --sidebar-ring: 339 58% 27%;
   }
 
   .dark {
-    --background: 30 8% 10%;
-    --foreground: 38 38% 85%;
-    --card: 30 6% 14%;
-    --card-foreground: 38 38% 85%;
-    --popover: 30 6% 14%;
-    --popover-foreground: 38 38% 85%;
-    --primary: 43 74% 52%;
-    --primary-foreground: 30 8% 10%;
-    --secondary: 30 6% 18%;
-    --secondary-foreground: 38 38% 85%;
-    --muted: 30 5% 22%;
-    --muted-foreground: 45 4% 50%;
-    --accent: 92 8% 48%;
-    --accent-foreground: 38 38% 85%;
-    --destructive: 0 62% 30%;
-    --destructive-foreground: 38 38% 85%;
-    --border: 30 5% 20%;
-    --input: 30 5% 20%;
-    --ring: 43 74% 52%;
-    --sidebar-background: 30 6% 12%;
-    --sidebar-foreground: 38 38% 85%;
-    --sidebar-primary: 43 74% 52%;
-    --sidebar-primary-foreground: 30 8% 10%;
-    --sidebar-accent: 30 6% 18%;
-    --sidebar-accent-foreground: 38 38% 85%;
-    --sidebar-border: 30 5% 20%;
-    --sidebar-ring: 43 74% 52%;
+    --background: 339 58% 15%;
+    --foreground: 56 60% 90%;
+    --card: 339 50% 20%;
+    --card-foreground: 56 60% 90%;
+    --popover: 339 50% 20%;
+    --popover-foreground: 56 60% 90%;
+    --primary: 56 60% 88%;
+    --primary-foreground: 339 58% 22%;
+    --secondary: 339 40% 25%;
+    --secondary-foreground: 56 60% 90%;
+    --muted: 339 30% 28%;
+    --muted-foreground: 56 30% 75%;
+    --accent: 56 50% 80%;
+    --accent-foreground: 339 58% 22%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 56 60% 90%;
+    --border: 339 30% 35%;
+    --input: 339 30% 30%;
+    --ring: 56 60% 88%;
+    --sidebar-background: 339 55% 18%;
+    --sidebar-foreground: 56 60% 90%;
+    --sidebar-primary: 56 60% 88%;
+    --sidebar-primary-foreground: 339 58% 22%;
+    --sidebar-accent: 339 40% 25%;
+    --sidebar-accent-foreground: 56 60% 90%;
+    --sidebar-border: 339 30% 35%;
+    --sidebar-ring: 56 60% 88%;
   }
 }
 
