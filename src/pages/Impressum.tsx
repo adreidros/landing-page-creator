@@ -17,7 +17,7 @@ const Impressum = () => {
               Angaben gemäß § 5 TMG
             </h2>
             <p>
-              EchoLore UG (haftungsbeschränkt)<br />
+              EchoLore UG (haftungsbeschränkt) (in Gründung)<br />
               August-Bebel-Str. 89<br />
               14482 Potsdam<br />
               Deutschland
@@ -31,8 +31,7 @@ const Impressum = () => {
             <p>
               Emre Yüzüncüoglu (Geschäftsführer)<br />
               Imge Yüzüncüoglu (Geschäftsführer)<br />
-              Max Grütz (Geschäftsführer)<br />
-              Klara Klostermann (Geschäftsführer)
+              Max Grütz (Geschäftsführer)
             </p>
           </section>
 
