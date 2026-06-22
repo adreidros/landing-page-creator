@@ -76,7 +76,7 @@ const ContentSections = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-background max-w-2xl mx-auto">
+          className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-card max-w-2xl mx-auto">
           
             <p className="font-display text-xl md:text-2xl font-light text-muted-foreground leading-relaxed text-center tracking-wide uppercase">
               Transform your exhibition into a stage<br />for dialogue that transcends millenia
@@ -100,7 +100,7 @@ const ContentSections = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="p-8 md:p-10 rounded-xl bg-card/50 border border-primary/30">
+            className="p-8 md:p-10 rounded-xl bg-card border border-primary/30">
             
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl">The Product</span>
             <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground font-body leading-relaxed text-justify">
@@ -119,7 +119,7 @@ const ContentSections = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
             id="motivation"
-            className="p-8 md:p-10 rounded-xl bg-card/50 border border-primary/30">
+            className="p-8 md:p-10 rounded-xl bg-card border border-primary/30">
             
             <span className="text-primary/70 font-display uppercase tracking-[0.2em] text-xl text-right">Our Motivation</span>
             <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-justify font-serif">
@@ -140,7 +140,7 @@ const ContentSections = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-background max-w-2xl mx-auto">
+        className="mt-16 py-8 px-8 rounded-xl border border-primary/30 bg-card max-w-2xl mx-auto">
         
             <p className="font-display text-xl md:text-2xl font-light text-muted-foreground leading-relaxed text-center tracking-wide uppercase">
               The knowledge of an entire exhibition<br />on the surface of a single screen.
