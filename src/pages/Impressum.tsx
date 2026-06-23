@@ -83,16 +83,6 @@ const Impressum = () => {
 
           <section>
             <h2 className="font-heading uppercase tracking-wider text-primary text-lg mb-3">
-              Verbraucherstreitbeilegung / Universalschlichtungsstelle
-            </h2>
-            <p>
-              Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
-              vor einer Verbraucherschlichtungsstelle teilzunehmen.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="font-heading uppercase tracking-wider text-primary text-lg mb-3">
               Haftung für Inhalte
             </h2>
             <p>
