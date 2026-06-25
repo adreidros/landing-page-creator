@@ -233,6 +233,10 @@ const Datenschutz = () => {
           </section>
         </div>
 
+        <p className="mt-12 text-sm text-muted-foreground">
+          Diese Website wurde am 15.06.2026 erstellt.
+        </p>
+
         <div className="mt-12">
           <Link
             to="/"
