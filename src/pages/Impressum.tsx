@@ -31,7 +31,7 @@ const Impressum = () => {
             <p>
               Emre Yüzüncüoglu (Geschäftsführer)<br />
               Imge Yüzüncüoglu (Geschäftsführer)<br />
-              Max Grütz (Geschäftsführer)
+              Max Rütz (Geschäftsführer)
             </p>
           </section>
 
